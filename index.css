@@ -1,19 +1,21 @@
 .container{
     font-family: Roboto, sans-serif;
     background-color: #1F2937;
-    display: flex;
-    font: bold;
+
     color: aliceblue;
 }
 
 .header-content{
     display: flex;
+    font: bold;
     /* justify-content: space-between; */
 }
 
 .logo{
     display: flex;
     padding: 5px;
+    font-size: larger;
+    font-weight: bold;
 }
 
 .links{
@@ -26,4 +28,116 @@
     padding: 15px;
 }
 
+.hero{
+    display: flex;
+    margin: 50px;
+}
 
+.para{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 0%;
+    align-self: flex-start;
+    background-color: lightseagreen;
+    color: #f0f8ff;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: large;
+}
+
+.img1{
+    width: 700px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-self: center; */
+
+}
+
+.first-line{
+    color: black;
+    margin-left: 660px;
+    align-items: center;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: Roboto, sans-serif;
+}
+
+.content{
+    display: flex;
+    border: blue;
+    justify-content: space-evenly;
+}
+
+.content img{
+    width: 300px;
+    border-image: auto;
+    border-color: blue;
+    border-radius: 10%;
+}
+
+.container3{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    padding: 70px;
+
+}
+
+.container3 p{
+    align-content: center;
+    margin: 50px;
+    margin-left: 500px;
+    font-size: x-large;
+    font-style: italic;
+}
+
+h3{
+    background-color: grey;
+    /* justify-content: */
+    margin-left: 900px;
+
+
+}
+
+.container-content{
+    background-color: blue;
+    font-family: Roboto, sans-serif;
+    color: white;
+    padding: 50px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button1{
+    margin-left: 800px;
+    background-color: blue;
+    border-color: #f0f8ff;
+    color: white;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    /* margin-bottom: 30px; */
+    font-size: x-large;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+.container5{
+    background-color: #1F2937;
+    color: white;
+    font-family: Roboto, sans-serif;
+    padding: 40px;
+}
+
+.container5 p{
+    margin-left: 600px;
+}
