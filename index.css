@@ -1,0 +1,29 @@
+.container{
+    font-family: Roboto, sans-serif;
+    background-color: #1F2937;
+    display: flex;
+    font: bold;
+    color: aliceblue;
+}
+
+.header-content{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.logo{
+    display: flex;
+    padding: 5px;
+}
+
+.links{
+    display: flex;
+    padding-left: 1000px;
+    flex-grow: initial;
+}
+
+.links .item-1, .item-2, .item-3{
+    padding: 15px;
+}
+
+
